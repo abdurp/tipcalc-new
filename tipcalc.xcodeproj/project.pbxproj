@@ -12,6 +12,7 @@
 		2812621819B20CA400EA96E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2812621619B20CA400EA96E3 /* Main.storyboard */; };
 		2812621A19B20CA400EA96E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2812621919B20CA400EA96E3 /* Images.xcassets */; };
 		2812622619B20CA400EA96E3 /* tipcalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2812622519B20CA400EA96E3 /* tipcalcTests.swift */; };
+		2812623019B213CA00EA96E3 /* nTXBggXTB.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2812622F19B213CA00EA96E3 /* nTXBggXTB.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		2812621F19B20CA400EA96E3 /* tipcalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2812622419B20CA400EA96E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2812622519B20CA400EA96E3 /* tipcalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipcalcTests.swift; sourceTree = "<group>"; };
+		2812622F19B213CA00EA96E3 /* nTXBggXTB.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nTXBggXTB.jpeg; path = ../../../Downloads/nTXBggXTB.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		2812621019B20CA400EA96E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2812622F19B213CA00EA96E3 /* nTXBggXTB.jpeg */,
 				2812621119B20CA400EA96E3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2812621819B20CA400EA96E3 /* Main.storyboard in Resources */,
+				2812623019B213CA00EA96E3 /* nTXBggXTB.jpeg in Resources */,
 				2812621A19B20CA400EA96E3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +332,7 @@
 				INFOPLIST_FILE = tipcalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -339,6 +344,7 @@
 				INFOPLIST_FILE = tipcalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -395,6 +401,7 @@
 				2812622B19B20CA400EA96E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2812622C19B20CA400EA96E3 /* Build configuration list for PBXNativeTarget "tipcalcTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +410,7 @@
 				2812622E19B20CA400EA96E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
